@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: " << '\n';
-    int a, b, max, min;
+    double a, b, max, min;
     cin >> a >> b;
     max = a + b;
     if ((a - b) > max)
